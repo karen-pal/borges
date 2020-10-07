@@ -1,5 +1,9 @@
 # Borges Corpus
+(WIP)
+
 by Karen Palacio
+
+<img src="https://i.imgur.com/iDJpsjf.png"/>
 
 # Introducción
 No hay muchos recursos sobre PLN sobre textos en español.
