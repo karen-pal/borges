@@ -98,3 +98,7 @@ def run(*,save=False):
     #    mynewlist = pickle.load(f)
 
     return df, sentiments_df
+
+if __name__ == "__main__":
+    print(">>>> Building dataset")
+    run()
