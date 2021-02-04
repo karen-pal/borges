@@ -2,3 +2,6 @@
 *.swp
 *.log
 *.mp4
+*.ipynb_checkpoints/
+*.Rmd
+
