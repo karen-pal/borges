@@ -49,10 +49,11 @@ def build_text_dataset(*, links_file="./links.txt"):
 
 
 def run(*, save=True):
-    ds = build_text_dataset()
+    author_name = "benedetti"
+    ds = build_text_dataset(links_file="./datasets/links_"+author_name+".txt")
     df = pd.DataFrame(ds)
     if save:
-        with open("borges_full_texts.pkl", "wb") as f:
+        with open("./datasets/"+author_name+"_full_texts.pkl", "wb") as f:
             pickle.dump(df, f)
             print("[INFO] Saved dataset in: ", f)
     return df
