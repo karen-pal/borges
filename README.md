@@ -22,3 +22,7 @@ In this repo you'll find:
 * `links.txt`: the links used by the script to search for the texts in the building of the dataset.
 * `sents.pckl`: a list of dataframes, corresponding to each of the Dataset's texts.
 * `borges_base.csv`: the full dataset, with the full texts.
+
+# TO DO
+
+Complementar con más datasets de [otrxs autorxs](https://ciudadseva.com/biblioteca/indice-autor-cuentos/) y [otras bibliotecas digitales](https://ciudadseva.com/secciones/bibliotecas-digitales-publicas/)
