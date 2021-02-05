@@ -40,8 +40,8 @@ In this repo you'll find:
 * `datasets/links/links_<author>.txt`: sources of the text data. used for the scraping part of the dataset building.
 * `sents_<author>.pkl`: a list of dataframes, corresponding to each of the texts, in the same order. This is done with the library sentiment-analysis-spanish (More libraries comming soon)
 * `scraper.py`: the script that builds the dataset with sentiment analysis sents.pkl
-* `scrap_full_text.py`: the script that builds borges_full_texts.pkl
-* ``:
+* `full_text_scraper.py`: the script that builds `<author>_full_texts.pkl` given an author's name and the file with the links to scrap from.
+* `links_scraper.py`: script that builds a `./datasets/links/links_<author>.txt` file, used in the scraping process.
 
 # TO DO
 
@@ -52,7 +52,7 @@ In doing so, do it with the following methodology:
 
 * for each male author, look for a woman author.
 
-> Trying to keep it balanced.
+> Trying to keep it balanced. Complicado teniendo en cuenta que incluso si hay un par de textos por autora, no se compara con la cantidad de textos de los hombres.
 
 ## Expaind horizontally
 
