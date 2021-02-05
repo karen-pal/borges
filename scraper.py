@@ -29,21 +29,18 @@ class Scraper:
     def close(self):
         self.driver.close()
 
-    # needs a re-do
     def get_links(
         self,
         *,
         url="http://ciudadseva.com/autor/jorge-luis-borges/cuentos/",
-        html_tag="div",
-        html_class="text-justify"
     ):
-        self.driver.get(url)  #'https://ciudadseva.com/texto/abel-y-cain-borges/')
-        # raw_text = self.driver.find_elements_by_xpath('//div[@class="text-justify"]')
-        raw_text = self.driver.find_elements_by_xpath(
-            "//" + html_tag + '[@class="' + html_class + '"]'
-        )
-        # content = raw_text[0].text
-        return raw_text
+        self.driver.get(url)
+        # to get all links in page
+        # link_elements = self.driver.find_elements_by_xpath(".//*/div/ul/li/a")
+        # get only cuentos
+        link_elements = self.driver.find_elements_by_xpath(".//body/div/div/article/div/ul/li/a")
+        links = [link.get_attribute('href') for link in link_elements]
+        return links
 
     def get_text(
         self,
@@ -106,11 +103,13 @@ def run(*, save=False):
 
     if save:
         # save list of sentiment dfs as pickle
-        with open("sentiments.pkl", "wb") as f:
+        with open("sentiments_per_sentence.pkl", "wb") as f:
             pickle.dump(sentiments, f)
+            print(f'Saved sentiment analysis in {f}')
 
         # save full df in csv
         df.to_csv("borges_df.csv", sep="#", index=False)
+        print(f'Saved sentiment analysis in {f}')
 
     # later to use
     # with open('sents.pkl', 'rb') as f:
