@@ -18,10 +18,17 @@ En este repositorio además vas a encontrar el script que generó este dataset.
 
 In this repo you'll find:
 
-* `scraper.py`: a script to build the dataset.
+* datasets directory: available datasets so far
+```
+datasets/
+├── borges_full_texts.pkl
+└── sents.pkl
+```
+    * `borges_full_texts.pkl`: in here you will find the complete scrapped texts in raw form, plus their metadata.
+    * `sents.pkl`: a list of dataframes, corresponding to each of the texts, in the same order. This is done with the library sentiment-analysis-spanish (More libraries comming soon)
+* `scraper.py`: the script that builds the dataset with sentiment analysis sents.pkl
+* `scrap_full_text.py`: the script that builds borges_full_texts.pkl
 * `links.txt`: the links used by the script to search for the texts in the building of the dataset.
-* `sents.pckl`: a list of dataframes, corresponding to each of the Dataset's texts.
-* `borges_base.csv`: the full dataset, with the full texts.
 
 # TO DO
 
