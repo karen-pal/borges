@@ -10,9 +10,9 @@ No hay muchos recursos sobre PLN sobre textos en español.
 
 Este es un intento de contribuir al ecosistema del mismo.
 
-En este repo hay dos datasets: uno se correponde con los textos completos de cuentos de Borges, más los análisis de sentimientos oración por oración, sin estructurar. Para el armado se scrapeó la página [Ciudad Seva](https://ciudadseva.com/autor/jorge-luis-borges/cuentos/) con Selenium. Para el análisis de sentimientos se usó [sentiment-analysis-spanish](https://pypi.org/project/sentiment-analysis-spanish/)
+En este repo hay dos tipos de datasets: uno se correponde con los textos completos de cuentos de **autorxs latinoamericanxs**, y el otro contiene el análisis de sentimientos oración por oración de los textos. Para el armado se scrapeó la página [Ciudad Seva](https://ciudadseva.com/autor/jorge-luis-borges/cuentos/) con Selenium. Para el análisis de sentimientos se usó [sentiment-analysis-spanish](https://pypi.org/project/sentiment-analysis-spanish/)
 
-En este repositorio además vas a encontrar el script que generó este dataset.
+En este repositorio además vas a encontrar los scripts que generan este dataset.
 
 # Contents
 
