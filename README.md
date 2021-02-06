@@ -64,3 +64,7 @@ Years of each story, genre(s), [author's nationality](https://ciudadseva.com/bib
 
 > find a way to automate this. even just a CLI would do.
 
+
+## Separate and expand genres
+
+Hasta ahora solo estoy scrapeando cuentos. Estaría bueno tener [poemas](https://ciudadseva.com/biblioteca/indice-autor-poemas/), ["otros"](http://ciudadseva.com/biblioteca/indice-autor-otrostextos/) , [minicuentos](https://ciudadseva.com/biblioteca/indice-autor-minicuentos/).
