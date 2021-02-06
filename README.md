@@ -23,13 +23,15 @@ datasets/
 ├── arlt_full_texts.pkl
 ├── arredondo_full_texts.pkl
 ├── benedetti_full_texts.pkl
+├── bombal_full_texts.pkl
 ├── borges_full_texts.pkl
-├── links
-│   ├── links_arlt.txt
-│   ├── links_arredondo.txt
-│   ├── links_benedetti.txt
-│   ├── links_borges.txt
-│   └── links_silvina_ocampo.txt
+├── carrington_full_texts.pkl
+├── davila_full_texts.pkl
+├── de_la_parra_full_texts.pkl
+├── garro_full_texts.pkl
+├── links/
+├── lispector_full_texts.pkl
+├── lyra_full_texts.pkl
 ├── ocampo_full_texts.pkl
 └── sents_borges.pkl
 ```
@@ -37,7 +39,7 @@ datasets/
 In this repo you'll find:
 
 * `datasets/<author>_full_texts.pkl`: in here you will find the complete scraped texts in raw form, plus their metadata.
-* `datasets/links/links_<author>.txt`: sources of the text data. used for the scraping part of the dataset building.
+* `datasets/links/links_<author>.txt`: urls, sources of the text data. used for the scraping part of the dataset building.
 * `sents_<author>.pkl`: a list of dataframes, corresponding to each of the texts, in the same order. This is done with the library sentiment-analysis-spanish (More libraries comming soon)
 * `scraper.py`: the script that builds the dataset with sentiment analysis sents.pkl
 * `full_text_scraper.py`: the script that builds `<author>_full_texts.pkl` given an author's name and the file with the links to scrap from.
@@ -58,6 +60,7 @@ In doing so, do it with the following methodology:
 
 Would be of interest to also collect:
 
-Years of each story, genre(s), author's nationality
+Years of each story, genre(s), [author's nationality](https://ciudadseva.com/biblioteca/indice-paises-cuentos/)
 
 > find a way to automate this. even just a CLI would do.
+

@@ -1,3 +1,5 @@
+# Example usage of Scraper class for full text recollection
+
 from scraper import Scraper
 import tqdm
 import pandas as pd
@@ -45,12 +47,24 @@ def build_text_dataset(*, links_file="./links.txt"):
         row["text_metadata"] = text_metadata
         row["text"] = sanit_text
         results.append(row)
+    scr.close()
     return results
 
 
 def run(*, save=True):
-    author_name = "benedetti"
-    ds = build_text_dataset(links_file="./datasets/links_"+author_name+".txt")
+    author_name = "lispector"
+    url = "https://ciudadseva.com/autor/clarice-lispector/cuentos/"
+    links_path = "./datasets/links/links_"
+
+    scraper = Scraper()
+    text = scraper.get_links(url=url)
+    with open(links_path+author_name+".txt", "w") as f:
+        for link in text:
+            f.write(link + "\n")
+    print("Written links to ",f)
+    scraper.close()
+
+    ds = build_text_dataset(links_file=links_path+author_name+".txt")
     df = pd.DataFrame(ds)
     if save:
         with open("./datasets/"+author_name+"_full_texts.pkl", "wb") as f:

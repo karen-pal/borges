@@ -5,13 +5,14 @@ from scraper import Scraper
 
 def run():
     scraper = Scraper()
-    url = "https://ciudadseva.com/autor/mario-benedetti/cuentos/"
+    url = "https://ciudadseva.com/autor/leonora-carrington/cuentos/"
     text = scraper.get_links(url=url)
-
-    with open("links_benedetti.txt", "w") as f:
+    author = "carrington"
+    with open("links_"+author+".txt", "w") as f:
         for link in text:
             f.write(link + "\n")
     print("Written links to ",f)
+    scraper.close()
     return text
 
 

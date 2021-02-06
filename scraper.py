@@ -22,11 +22,12 @@ class Scraper:
             self.driver = Firefox()
         # self._br.set_page_load_timeout(25)
 
-    def __del__(self):
-        print("...Closing opened drivers")
-        self.close()
+    #def __del__(self):
+    #    print("...Closing opened drivers")
+    #    self.close()
 
     def close(self):
+        print("...Closing opened drivers")
         self.driver.close()
 
     def get_links(
