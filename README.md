@@ -54,7 +54,7 @@ In doing so, do it with the following methodology:
 
 * for each male author, look for a woman author.
 
-> Trying to keep it balanced. Complicado teniendo en cuenta que incluso si hay un par de textos por autora, no se compara con la cantidad de textos de los hombres.
+> Trying to keep it balanced. Complicado teniendo en cuenta que incluso si hay un par de textos por autora, no se compara con la cantidad de textos de los hombres. Como no encuentro cantidad por autora voy a tener que hacer un esfuerzo a lo ancho ... es decir tener de cantidad de nombres.
 
 ## Expaind horizontally
 
@@ -68,3 +68,43 @@ Years of each story, genre(s), [author's nationality](https://ciudadseva.com/bib
 ## Separate and expand genres
 
 Hasta ahora solo estoy scrapeando cuentos. Estaría bueno tener [poemas](https://ciudadseva.com/biblioteca/indice-autor-poemas/), ["otros"](http://ciudadseva.com/biblioteca/indice-autor-otrostextos/) , [minicuentos](https://ciudadseva.com/biblioteca/indice-autor-minicuentos/).
+
+## Incorporate authors:
+
+### [blogspot también dividido por nacionalidad](http://cuentosdelatinoamerica.blogspot.com/search/label/Cuentistas%20de%20latinoam%C3%A9rica)
+
+> Mujeres
+```
+    Isabel Allende (1942)
+    Marcela Serrano (1951) ...
+    Gioconda Belli. ...
+    Sor Juana Inés de la Cruz (1651 - 1695) ...
+    Alfonsina Storni (1892 - 1938) ...
+    Gabriela Mistral (1889 - 1957) ...
+    Juana de Ibarbourou (1892 - 1979) ...
+```
+
+### María Elena Walsh - Argentina:
+* [Cuentos _ 5/6 cuentos](http://lasalademerlin.blogspot.com/2016/11/cinco-cuentos-cortos-de-maria-elena.html)
+* [12 poemas](https://www.conmishijos.com/actividades-para-ninos/cuentos/12-bellos-y-divertidos-poemas-de-maria-elena-walsh-para-ninos/)
+* [El ovillo - cuento](http://bpcd-mariaelenawalsh.blogspot.com/2013/06/cuento-el-ovillo-de-maria-elena-walsh.html)
+
+### Gabriela Mistral - Chile:
+* [1 cuento - el cántaro de greda](http://cuentosdelatinoamerica.blogspot.com/2011/06/el-cantaro-de-greda-gabriela-mistral.html)
+
+### Claudia Cortalezzi - Argentina:
+* [un cuento con camellos](http://cuentosdelatinoamerica.blogspot.com/2017/01/un-cuento-con-camellos-claudia.html)
+
+
+### Alejandra D'Atri - Argentina:
+* [Tan hombre](http://cuentosdelatinoamerica.blogspot.com/2015/11/tan-hombre-alejandra-datri.html)
+
+
+> Hombres
+### Salzano - Argentina:
+* https://diceelwalter.blogspot.com/search/label/Daniel%20Salzano
+* https://www.lavoz.com.ar/ciudadanos/salzano-algunos-de-sus-textos
+### Rubén Darío - Nicaragua
+### Horacio Quiroga
+### Cortazar
+### Macedonio Fernández
