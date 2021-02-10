@@ -52,8 +52,8 @@ def build_text_dataset(*, links_file="./links.txt"):
 
 
 def run(*, save=True):
-    author_name = "bioy_casares"
-    url = "https://ciudadseva.com/autor/adolfo-bioy-casares/cuentos/"
+    author_name = "reyes"
+    url = "https://ciudadseva.com/autor/alfonso-reyes/cuentos/"
     links_path = "./datasets/links/links_"
 
     scraper = Scraper()
