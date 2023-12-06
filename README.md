@@ -4,7 +4,9 @@
 by Karen Palacio
 
 <img src="https://i.imgur.com/iDJpsjf.png"/>
+
 # Últimas actualizaciones
+
 - Actualicé el dataset de github para que tenga lo mismo pero en csv, manteniendo el formato. https://github.com/karen-pal/borges/tree/master/datasets/datasets_csv
 
 - Además puse una notebook de muchos intentos de clustering con distintos algoritmos - ese trabajo lo tengo que seguir porque haciendo eso me di cuenta que no tiene mucho sentido cruzar todos los documentos con todos. Creo que es más interesante hacer topic modeling/clustering por autorx y realizar un dataset a partir de eso.
