@@ -4,6 +4,7 @@
 by Karen Palacio
 
 <img src="https://i.imgur.com/iDJpsjf.png"/>
+
 # Uso y licencia
 Autorizo el uso de este dataset para cualquier tipo de uso, mientras se me de reconocimiento de autoría (y en lo posible se me informe - para dejar asentado aquí para qué ha sido utilizado y que sirva a otras personas a aprender sobre NLP)
 
