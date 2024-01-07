@@ -4,8 +4,12 @@
 by Karen Palacio
 
 <img src="https://i.imgur.com/iDJpsjf.png"/>
+# Uso y licencia
+Autorizo el uso de este dataset para cualquier tipo de uso, mientras se me de reconocimiento de autoría (y en lo posible se me informe - para dejar asentado aquí para qué ha sido utilizado y que sirva a otras personas a aprender sobre NLP)
+
 
 # Últimas actualizaciones
+- Agregué una versión compacta del dataset, conteniendo todos los cuentos de todes les autores en un solo archivo csv - para su uso con librerías de huggingface: https://github.com/karen-pal/borges/blob/master/datasets/full_corpus.csv
 
 - Actualicé el dataset de github para que tenga lo mismo pero en csv, manteniendo el formato. https://github.com/karen-pal/borges/tree/master/datasets/datasets_csv
 
