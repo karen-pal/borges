@@ -1,7 +1,9 @@
 # Borges Corpus
-(WIP)
+(WIP permanente)
 
 by Karen Palacio
+
+<a href="https://docs.google.com/presentation/d/1ROmh6rz_8Oblh-yGTz8aypbHnaxXx2R5usZnBOdz3lk/edit?usp=sharing">Slides introductorias sobre la metodología de armado y la estructura del dataset<a/>
 
 <img src="https://i.imgur.com/iDJpsjf.png"/>
 
