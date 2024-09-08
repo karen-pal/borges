@@ -10,6 +10,13 @@ by Karen Palacio
 # Uso y licencia
 Yo, Karen Palacio aka kardaver, autorizo el uso de este dataset para cualquier tipo de uso, mientras se me de reconocimiento de autoría (y en lo posible se me informe - para dejar asentado aquí para qué ha sido utilizado y que sirva a otras personas a aprender sobre NLP)
 
+# Presentación en formato de charla
+En Agosto de 2024 dí una charla para presentar este dataset y explicar los distintos usos que pueden dársele. Se puede encontrar la charla en mi canal de youtube:
+<div align="left">
+      <a href="https://youtu.be/1xyeEIL5i_0">
+         <img src="https://img.youtube.com/vi/1xyeEIL5i_0/0.jpg" style="width:100%;">
+      </a>
+</div>
 
 # Últimas actualizaciones
 
